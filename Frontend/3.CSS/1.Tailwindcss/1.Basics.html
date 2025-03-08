@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My First Web Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <h1>1.Colors with different shades</h1>
+    <p class="text-green-100">Tailwind.</p>
+    <p class="text-green-200">Tailwind.</p>
+    <p class="text-green-300">Tailwind.</p>
+    <p class="text-green-400">Tailwind.</p>
+    <p class="text-green-500">Tailwind.</p>
+    <p class="text-green-600">Tailwind.</p>
+   <br/>
+   <hr/>
+   <br/>
+    <h1>2.Background Colors with different shades</h1>
+    <p class="bg-pink-500 text-white">Tailwind.</p>
+    <p class="bg-red-200 text-white">Tailwind.</p>
+    <br/>
+   <hr/>
+   <br/>
+   <h1>3.Text decoration with different shades</h1>
+   <p class="line-through">Tailwind.</p>
+   <p class="underline">Tailwind.</p>
+   <p class="underline decoration-blue-400">Tailwind.</p>
+   <p class="overline">Tailwind.</p>
+   <p class="text-pink-600 underline decoration-blue-400">Tailwind</p>
+   <br/>
+  <hr/>
+  <br/>
+  <h1>4.Accent colors</h1>
+   <input type ="checkbox" class="accent-red-500"/>
+   <input type ="checkbox" class="accent-teal-500"/>
+   <br/>
+  <hr/>
+  <br/>
+  <h1>5.Container and Spacing</h1>
+<h3>a.Margins</h3>
+<div class = 'm-4 bg-yellow-100'>Margin All around</div>
+<div class = 'mx-4 bg-red-100'>Margin on x axis</div>
+<div class = 'my-4 bg-green-100'>Margin on y axis</div>
+<div class = 'mt-4 bg-pink-100'>Margin Top</div>
+<div class = 'mb-4 bg-blue-100'>Margin bottom</div>
+<div class = 'ml-4 bg-teal-100'>Margin left</div>
+<div class = 'mr-4 bg-violet-100'>Margin right</div>
+<br/>
+<hr/>
+<br/>
+<h3>b.Arbitary Spacing</h3>
+<div class = 'm-[100px] bg-slate-400'>Marging all around huge</div>
+<div class = 'p-[100px] bg-slate-400'>padding all around huge</div>
+<br/>
+<hr/>
+<br/>
+<h3>C.padding</h3>
+<div class = 'p-4 bg-yellow-100'>padding All around</div>
+<div class = 'px-4 bg-red-100'>padding on x axis</div>
+<div class = 'py-4 bg-green-100'>padding on y axis</div>
+<div class = 'pt-4 bg-pink-100'>padding Top</div>
+<div class = 'pb-4 bg-blue-100'>padding bottom</div>
+<div class = 'pl-4 bg-teal-100'>padding left</div>
+<div class = 'pr-4 bg-violet-100'>padding right</div>
+<br/>
+<hr/>
+<br/>
+<h3>Space between X</h3>
+<div class = 'flex space-x-4'>
+    <div class="p-3 bg-teal-100">1</div>
+    <div class="p-3 bg-teal-100">2</div>
+    <div class="p-3 bg-teal-100">3</div>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>Space between Y</h3>
+<div class = 'flex-col space-y-4'>
+    <div class="p-3 bg-teal-100">1</div>
+    <div class="p-3 bg-teal-100">2</div>
+    <div class="p-3 bg-teal-100">3</div>
+</div>
+<br/>
+<hr/>
+<br/>
+<h1>6.Typography</h1>
+<h3>a.Font Size</h3>
+<div class="container bg-teal-100 p-7 ml-2 mb-10">
+    <p class='text-xs'>Tailwind is Awesome</p>
+    <p class='text-sm'>Tailwind is Awesome</p>
+    <p class='text-base'>Tailwind is Awesome</p>
+    <p class='text-lg'>Tailwind is Awesome</p>
+    <p class='text-xl'>Tailwind is Awesome</p>
+    <p class='text-2xl'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>b.Font Family</h3>
+<div class="container bg-violet-100 p-7 ml-2 mb-10">
+    <p class='font-sans'>Tailwind is Awesome</p>
+    <p class='font-serif'>Tailwind is Awesome</p>
+    <p class='font-mono'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>c.Font Weight</h3>
+<div class="container bg-orange-100 p-7 ml-2 mb-10">
+    <p class='font-light'>Tailwind is Awesome</p>
+    <p class='font-normal'>Tailwind is Awesome</p>
+    <p class='font-medium'>Tailwind is Awesome</p>
+    <p class='font-semibold'>Tailwind is Awesome</p>
+    <p class='font-medium'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>d.Letter Spacing</h3>
+<div class="container bg-blue-100 p-7 ml-2 mb-10">
+    <p class='tracking-tighter'>Tailwind is Awesome</p>
+    <p class='tracking-tight'>Tailwind is Awesome</p>
+    <p class='tracking-normal'>Tailwind is Awesome</p>
+    <p class='tracking-wide'>Tailwind is Awesome</p>
+    <p class='tracking-wider'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>e.Text Alignment</h3>
+<div class="container bg-red-100 p-7 ml-2 mb-10">
+    <p class='text-left'>Tailwind is Awesome</p>
+    <p class='text-center'>Tailwind is Awesome</p>
+    <p class='text-right'>Tailwind is Awesome</p>
+    <p class='text-justify'>Tailwind is Awesome</p>
+    <p class='text-start'>Tailwind is Awesome</p>
+    <p class='text-end'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>f.Text Decoration</h3>
+<div class="container bg-cyan-100 p-7 ml-2 mb-10">
+    <p class='underline decoration-4'>Tailwind is Awesome</p>
+    <p class='underline decoration-solid'>Tailwind is Awesome</p>
+    <p class='underline decoration-double'>Tailwind is Awesome</p>
+    <p class='underline decoration-dotted'>Tailwind is Awesome</p>
+    <p class='underline decoration-dashed'>Tailwind is Awesome</p>
+    <p class='underline underline-offset-10'>Tailwind is Awesome</p>
+    <p class='line-through decoration-1'>Tailwind is Awesome</p>
+    <p class='overline'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+<h3>g.Text Transform</h3>
+<div class="container bg-indigo-100 p-7 ml-2 mb-10">
+    <p class='normal-case'>Tailwind is Awesome</p>
+    <p class='uppercase'>Tailwind is Awesome</p>
+    <p class='lowercase'>Tailwind is Awesome</p>
+    <p class='capitalize'>Tailwind is Awesome</p>
+</div>
+<br/>
+<hr/>
+<br/>
+</body>
+</html>
