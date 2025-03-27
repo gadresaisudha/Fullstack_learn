@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "checked": false,
+      "item": "Almonds, Unsalted, in the blue bag"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "item": "Pizza"
+    },
+    {
+      "id": "3",
+      "checked": true,
+      "item": "Bread"
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "item": "Cookies"
+    },
+    {
+      "id": "41",
+      "checked": false,
+      "item": "milk"
+    },
+    {
+      "id": "411",
+      "checked": false,
+      "item": "chips"
+    },
+    {
+      "id": "4111",
+      "checked": false,
+      "item": "popcorn"
+    }
+  ]
+}
